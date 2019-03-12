@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main-container{
+  width: 70%;
+  display: inline-block;
+  height: 700px;
+  background-color: white;
+  overflow-y: scroll;
+  margin-top: 60px;
+}
+
+.fab {
+  position: fixed;
+  bottom: 4rem;
+  right: -69rem;
+
+
+}
+
+.image-class{
+  width: 100%;
+  height: auto;
+}
+
+body{
+  overflow-y: hidden;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
